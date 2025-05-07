@@ -2,62 +2,105 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mi Portfolio - [Tu Nombre]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Emeli Carino</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #333; color: white; text-align: center; padding: 50px 20px; }
-    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
-    h1, h2 { margin: 0 0 20px; }
-    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-    .project-card { background: #f4f4f4; padding: 20px; border-radius: 10px; }
-    .contact { text-align: center; }
-    a.button { display: inline-block; background: #333; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #2c3e50; color: white; text-align: center; padding: 60px 20px; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { font-size: 1.2em; }
+    section { max-width: 1000px; margin: auto; padding: 50px 20px; }
+    h2 { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 20px; }
+    .experience, .education, .skills { margin-bottom: 40px; }
+    .job, .study { margin-bottom: 20px; }
+    .job h3, .study h3 { margin: 0; font-size: 1.2em; color: #2c3e50; }
+    .job p, .study p { margin: 5px 0; }
+    ul { list-style: disc inside; }
+    .contact { text-align: center; background: #ecf0f1; padding: 30px 20px; }
+    .contact a { color: #2c3e50; text-decoration: none; margin: 0 10px; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>[Tu Nombre]</h1>
-  <p>[Tu título profesional o área]</p>
+  <h1>Emeli Carino</h1>
+  <p>Analista Funcional Sr | Lic. en Administración de Empresas (en curso)</p>
+  <p><a href="mailto:emelicarino@hotmail.com" style="color: #ecf0f1;">emelicarino@hotmail.com</a> | <a href="https://www.linkedin.com/in/emeli-carino-61254850/" target="_blank" style="color: #ecf0f1;">LinkedIn</a></p>
 </header>
 
 <section id="about">
   <h2>Sobre mí</h2>
-  <p>Escribe aquí una breve descripción sobre ti, tu experiencia, tus intereses profesionales y lo que te apasiona.</p>
+  <p>Soy Analista Funcional Senior con experiencia en organismos públicos y empresas privadas, especializada en análisis de procesos, gestión de proyectos, implementación de soluciones digitales y normativas ISO. Apasionada por la mejora continua y la innovación tecnológica, con formación en Administración de Empresas y certificaciones en Data Analytics e interpretación de normas ISO.</p>
 </section>
 
-<section id="cv">
-  <h2>Currículum</h2>
-  <p>Puedes ver o descargar mi CV en el siguiente enlace:</p>
-  <a class="button" href="ruta-a-tu-cv.pdf" target="_blank">Ver mi CV</a>
+<section id="experience" class="experience">
+  <h2>Experiencia Laboral</h2>
+  <div class="job">
+    <h3>Grupo Boldt | Analista Funcional Sr (Oct 2023 – Actualidad)</h3>
+    <ul>
+      <li>Recopilación y documentación de requisitos funcionales de usuarios y clientes.</li>
+      <li>Análisis de procesos, identificación de mejoras y optimización de eficiencia.</li>
+      <li>Colaboración con desarrollo para soluciones alineadas al negocio.</li>
+      <li>Creación de diagramas de flujo, casos de uso y modelos de datos.</li>
+      <li>Testing de funcionalidades y soporte post-implementación.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <h3>Raona Coding Corporate Futures (Cliente YPF) | Analista Funcional SSr (May 2022 – Oct 2023)</h3>
+    <ul>
+      <li>Desarrollo de circuitos para optimizar procesos y herramientas.</li>
+      <li>Seguimiento de requerimientos y comunicación con proveedores.</li>
+      <li>Testing de aplicaciones web y servicios API REST.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <h3>Dirección Nacional de Firma Digital | Analista Funcional Sr (Dic 2019 – Dic 2023)</h3>
+    <ul>
+      <li>Oficial de Registro de Firma Digital.</li>
+      <li>Asesoría y capacitaciones sobre Firma Digital en organismos públicos y privados.</li>
+      <li>Auditor interno de Normas ISO, análisis avanzado de incidentes.</li>
+    </ul>
+  </div>
+  <!-- Puedes seguir agregando más trabajos aquí -->
 </section>
 
-<section id="projects">
-  <h2>Proyectos</h2>
-  <div class="projects">
-    <div class="project-card">
-      <h3>Proyecto 1</h3>
-      <p>Descripción breve de tu proyecto 1.</p>
-      <a href="https://link-al-proyecto1.com" target="_blank">Ver proyecto</a>
-    </div>
-    <div class="project-card">
-      <h3>Proyecto 2</h3>
-      <p>Descripción breve de tu proyecto 2.</p>
-      <a href="https://link-al-proyecto2.com" target="_blank">Ver proyecto</a>
-    </div>
-    <!-- Puedes duplicar este bloque para más proyectos -->
+<section id="education" class="education">
+  <h2>Educación y Formación</h2>
+  <div class="study">
+    <h3>Licenciatura en Administración de Empresas (en curso)</h3>
+    <p>Universidad Nacional de Quilmes - UNQ | Restan 6 finales</p>
+  </div>
+  <div class="study">
+    <h3>Economía y Gestión de las Organizaciones</h3>
+    <p>Instituto Nuestra Señora de Luján N°8135 - Peyrano, Santa Fe</p>
+  </div>
+  <div class="study">
+    <h3>Data Analytics</h3>
+    <p>Coderhouse</p>
+  </div>
+  <div class="study">
+    <h3>Interpretación e integración de normas ISO 9001, 14001, 45001</h3>
+    <p>Be Cert</p>
   </div>
 </section>
 
-<section id="contact">
+<section id="skills" class="skills">
+  <h2>Conocimientos y Habilidades</h2>
+  <ul>
+    <li>Gestión de proyectos</li>
+    <li>Análisis de procesos</li>
+    <li>Documentación funcional</li>
+    <li>Testing de software</li>
+    <li>Auditoría interna ISO</li>
+    <li>Capacitaciones y asesoría en Firma Digital</li>
+    <li>Manejo de herramientas JIRA, MOODLE</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
   <h2>Contacto</h2>
-  <p>Puedes contactarme a través de:</p>
-  <p>Email: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
-  <p>
-    <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
-  </p>
+  <p>Email: <a href="mailto:emelicarino@hotmail.com">emelicarino@hotmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/emeli-carino-61254850/" target="_blank">emeli-carino-61254850</a></p>
 </section>
 
 </body>
